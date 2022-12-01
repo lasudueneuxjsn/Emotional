@@ -1,0 +1,86 @@
+-- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 50 -- tempo overides the delay
+
+    shared.scr = [[ S H g Q T [IH] g T
+O [SH] D W Y O Y W
+S s S Q T [IH] g T
+O [SH] D W Y O Y W--
+D [*Tg] W T W T
+W [TS] [WD] [8t] W t W t
+W [tS] [WD] [ETg] [WD] [TD] [WS] [Tg]
+[WD] [TD] [WS] [*g] [QD] [ED] [QS] [EP]
+Q [EO] [QD] [*WTg] W T W [TS]
+[ES] [TS] [ED] [(8t] W t W t
+W [tS] [WD] [*Tqg] [WD] [TD] [WS] [Tg]
+[WD] [TD] [WS] [*QEg] [QD] [ED] [QS] [EP]
+W T [Ws] [*QES] Q [ES] [QS] [ES]
+[QD] [ETg] [Qs] [W8t] [Ws] [tY] [Ws] [tYS]
+[WD] [tY] [Wg] [^*E] [qD] [ETD] [qS] [ETS]
+[qg] [ETD]S[QD] [$S] D--S
+H g [QET] [QS] [ETH] [Wg] [WT] [qS]
+[TH] [QD] [tWY] [QD] [tYS] [Wg] [tY] [qS]
+[tYH] [Wg] [QET] [qS] [ETH] [Wg] [*WT] [EG]
+[WTg] [qD] [tWY] W [tY] W [tY] [WS]
+[tYH] [Wg] [QET] [qS] [ETH] [WTg] q [*S]
+[TH] [QD] [tWY] [QD] [tYS] [qg] [tY] [QD]S
+[tWYD]S[EP] [QETS] Q [ET] Q [ET] [QO]
+[ETg] Q [s%QD]--D D
+S [DH] [Sg] $ * [QH] g *
+W [TH] D % ( W ( %
+[YS] [Ys] [YS] [$Y] [*T] [QH] g *
+W [TH] D % ( W ( %--
+D [*Tg] W T W T
+W [TS] [WD] t W t W t
+[WS] [tS] [WD] [ETg] [WD] [TD] [WS] [Tg]
+[WD] [TD] [WS] [Wg] [QD] [ED] [QS] [EP]
+Q [EO] [QD] [*WTg] W T W [TS]
+[WS] [TH] [WG] [(8tg] [WD] t W t
+[WS] [tS] [WD] [*qtg] [WD] [TD] [WS] [Tg]
+[WD] [TD] [WS] [*QEg] [QD] [ED] [QS] [EP]
+Q E [Qs] [*QETS] Q [ETS] [QS] [ETS]
+[QD] [ETg] [Qs] [W8t] [Ws] [tY] [Ws] [tYS]
+[WD] [tY] [Wg] [*E] [qD] [ETD] [qS] [ETS]
+[qg] [ETD]S[QD] [*EIS] D--S
+H g [QET] [QS] [ETH] [Wg] [WT] [qS]
+[TH] [QD] [tWY] [QD] [tYS] [Wg] [tY] [qS]
+[tYH] [Wg] [QET] [qS] [ETH] [Wg] [*WT] [EG]
+[WTg] [qD] [tWY] W [tY] W [tY] [WS]
+[tYH] [Wg] [QET] [qS] [ETH] [WTg] q [*S]
+[TH] [QD] [tWY] [QD] [tYS] [qg] [tY] [QD]S
+[tWYD]S[EP] [QETS] Q [ET] Q [ET] [QO]
+[ETg] Q [8sD]--D D
+[tYD] [WD] [qiTS] q [TS] [qS] [TH] [qG]
+[Tg] [qD] [QT] [TS] [QS] [TS] [QH] [TG]
+[Tg] [QD] [*WT] [iS] [WS] i [WP] [iS]
+[WD] [ig] [(EYD] W Y W Y W
+[YS] [Ws] [q*T] q [TS] [qS] [TH] [qG]
+[Tg] [qD] [*QT] [QS] [TS] [QS] [TH] [QG]
+[Tg] [QD] [WTi] [WS] [iS] [WS] [iS] [WS]
+[qD] [%g] [s$WODH]-[8%(]-[8s%(ODH] [SL]
+[OH] [ig]-[$T] [*OH] [Qig]-[*T]
+[WOH] [TYD]-[%Y] [(T] [Wi] ( [%TS]
+[Os] [iS]-[$T] [*OH] [Qig]-[*I]
+[WOH] [TYD]-% ( W ( [%TS]
+[OH] [ig] [QE] [QTS] [EOH] [Qig] [*WT] [qOH]
+[*OH] [4pj] [^*4q] [^pj] [*qpj] [^PJ] [*q] ^
+[(8sl] % [!$^*SL] $ [^*] [$L] [^*l] [$S]
+[^*] [$g] [8@%(] [%D] [8(] % [8(] [%TS]
+[8(OH] [%ig] [$^] [$TS] [^OH] [$ig] [!%*] [4TS]
+[*OH] [4YD] [8@%(] [%YD] [8(TS] [%ig] [8(] [%TS]
+[8(OH] [i%D] [$^] [^TS] [$OH] [!%*ig] 4 [4IG]
+[*ig] [4YD] [8@%(] % [8(] % [8(] [%TS]
+[8(OH] [%ig] [$^] [^TS] [$OH] [!%*ig] 4 [4TS]
+[*OH] [4YD] [8@%(] [%YD] [8(TS] [%ig] [8(] [%D]S
+[8@%(D]S[^P] [@$^*TS] $ [^*] $ [^*] [$O]
+[^*ig] $ [8s@%(D] % [8s%OD]-D D
+L [ZV] [Lc] $ * [QV] c *
+[Wc] [TV] Z % ( W ( %
+[DL] [Dl] [DL] [$S] [*S] [QV] c *
+O [SV] Z W Y O Y W ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
